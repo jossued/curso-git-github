@@ -25,3 +25,13 @@
 - git tag -d nombre -> borra el tag
 - git tag -a v1.0.0 (commitId) -m "Versión 1.0.0" ->  realiza un tag más específico
 - git show nombreTag -> muestra información del commit del tag
+
+## Stash y Rebase
+- git stash -> crea un WIP de los cambios actuales
+- git stash pop -> trae los cambios del stash y elimina el sstash de la lista
+- git stash list -> lista los stash
+- git show stash -> muestra el último stash a detalle
+- git stash drop -> borra el stash de la posición 0
+- git stash clear -> borra todos los stash
+- git stash apply stash@{1} -> aplica los cambios del stash id
+- --keep-index -> guarda tdo menos los del stage
