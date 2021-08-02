@@ -10,3 +10,7 @@
 - git commit ammend -m "" -> corrige el nombre del commit
 - git reset --soft HEAD^ -> se mueve a otro commit pero conserva los cambios, si se quiere se puede restablecer el HEAD a un commit específico se puede poniendo el id, así git reset --soft HEAD 1234
 - git reset --hard -> se mueve a otro commit y no conserva los cambios
+- git mv archivo archivo -> cambia el nombre del archivo
+- git rm archivo -> borra el archivo
+- git add -u -> actualiza archivos borrados o renombrados
+- .gitignore -> archivo en donde se especifica lo que se va a ignorar del seguimiento de archivos y carpetas
