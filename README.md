@@ -19,3 +19,9 @@
 - git branch nombre -> crea una rama en el HEAD, git branch -> lista las ramas, git checkout nombre -> se mueve a la rama (con el comando -b también la crea).
 - git merge nombre -> une la rama del nombre con la rama actual
 - git branch -d nombre -> borra la rama
+
+## Etiquetas
+- git tag -> lista etiquetas (versiones)
+- git tag -d nombre -> borra el tag
+- git tag -a v1.0.0 (commitId) -m "Versión 1.0.0" ->  realiza un tag más específico
+- git show nombreTag -> muestra información del commit del tag
