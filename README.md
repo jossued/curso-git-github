@@ -3,7 +3,7 @@
 - git commit -m -> Hace un commit con un mensaje
 - git add -A -> añade al stage todos los cambios
 - git reset -> quita del stage los archivos
-- git diff -> compara los cambios (para ver en el stage añadir --staged)
+- git diff -> compara los cambios (para ver en el stage añadir --staged) (se pueden comparar tambien commits ids y ramas)
 - git checkout -- .  -> restablece los cambios de los archivos
 
 ## Otros comandos
@@ -14,3 +14,8 @@
 - git rm archivo -> borra el archivo
 - git add -u -> actualiza archivos borrados o renombrados
 - .gitignore -> archivo en donde se especifica lo que se va a ignorar del seguimiento de archivos y carpetas
+
+## Ramas
+- git branch nombre -> crea una rama en el HEAD, git branch -> lista las ramas, git checkout nombre -> se mueve a la rama (con el comando -b también la crea).
+- git merge nombre -> une la rama del nombre con la rama actual
+- git branch -d nombre -> borra la rama
