@@ -26,7 +26,7 @@
 - git tag -a v1.0.0 (commitId) -m "Versión 1.0.0" ->  realiza un tag más específico
 - git show nombreTag -> muestra información del commit del tag
 
-## Stash y Rebase
+## Stash
 - git stash -> crea un WIP de los cambios actuales
 - git stash pop -> trae los cambios del stash y elimina el sstash de la lista
 - git stash list -> lista los stash
